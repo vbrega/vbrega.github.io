@@ -1,0 +1,94 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+main h1 {
+	text-align: center;
+	background-color: #0a0155;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 5px solid black;
+	font-size: 60px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+}
+
+aside {
+	background-color: #0a0155;
+	color: #F2FFFC;
+}
+
+footer {
+	background-color: #000;
+	color: #F2FFFC;
+}
+
+nav a {
+	color: #F2FFFC;
+}
+
+main a {
+	color: #0a0155;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+	width: 250px;
+}
+
+blockquote, aside, footer {
+    padding: 20px;
+}
+
+main div {
+	width: 720px;
+	margin: auto;
+	padding: 30px 0;
+}
+
+aside {
+	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+aside li {
+	display: inline-block;
+}
+
+.minha-foto, .navegacao-site {
+	float: right;
+	box-sizing: border-box;
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.navegacao-site {
+	width: 15%;
+	position: relative;
+	top: 310px;
+}
